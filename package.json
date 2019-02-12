@@ -1,0 +1,19 @@
+{
+  "name": "nowmysql2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "db": "^1.1.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "mysql": "^2.16.0",
+    "promise-mysql": "^3.3.1"
+  }
+}
