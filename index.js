@@ -11,10 +11,10 @@ app.use(async ctx => {
   ctx.body = item
 })
 
-async function show(title) {
+async function show(movieTitle) {
   try {
     // const itemData = await pool.query(`SELECT * FROM blogPosts WHERE blogTitle  LIKE '%${title}%'`)
-    const itemData = await pool.query(`SELECT *FROM movies WHERE movieWatched = 1 '%${title}%'`)
+    const itemData = await pool.query(`SELECT *FROM movies WHERE movieWatched = 1 '%${movieTitle}%'`)
     return itemData[0]
   } catch (error) {
     console.log(error)
