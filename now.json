@@ -1,7 +1,7 @@
 
 {
     "version": 2,
-    "name": "maitreyi-db",
+    "name": "movies",
     "env": {
       "DBHOST": "maitreyidb.c2iipqd2e792.us-east-2.rds.amazonaws.com",
       "DBPORT": "3306",

@@ -1,6 +1,6 @@
 const Koa = require('koa')
 const bodyParser = require('koa-bodyparser')
-const pool = require('db')
+const pool = require('./db/db')
 
 const app = new Koa()
 app.use(bodyParser())
