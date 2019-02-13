@@ -7,7 +7,7 @@
       "DBPORT": "3306",
       "DBUSER": "maitreyidb",
       "DBPASSWORD": "maitreyidb",
-      "DBNAME": "maitreyidb"
+      "DBNAME": "movies"
     },
     "builds": [
       { "src": "index.js", "use": "@now/node" }

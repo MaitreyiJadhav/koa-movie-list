@@ -1,11 +1,5 @@
-[{
-    "movieTitle" : "Ferris Bueller’s Day Off", 
-    "movieWatched": 1
-},
+
+
 {
-
-    "movieTitle" : "Aquaman", 
-    "movieWatched": 0
-
+    "title" : "Ferris Bueller’s Day Off"
 }
-]
