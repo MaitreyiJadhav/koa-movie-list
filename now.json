@@ -3,10 +3,10 @@
     "version": 2,
     "name": "movies",
     "env": {
-      "DBHOST": "maitreyidb.c2iipqd2e792.us-east-2.rds.amazonaws.com",
+      "DBHOST": "",
       "DBPORT": "3306",
-      "DBUSER": "maitreyidb",
-      "DBPASSWORD": "maitreyidb",
+      "DBUSER": "",
+      "DBPASSWORD": "",
       "DBNAME": "movies"
     },
     "builds": [
